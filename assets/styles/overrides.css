@@ -1,0 +1,44 @@
+header {
+  text-align: center;
+}
+a#logo > img {
+  transform: rotate(4deg);
+  width: 135px;
+  height: 135px;
+}
+ul#follow-icons {
+  margin: 0;
+}
+ul#follow-icons > li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 5px;
+}
+ul.rotate a {
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  display:block;
+  line-height: normal;
+}
+ul.rotate a:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+h3.post-title {
+ font-size: 1.4em;
+}
+.taglist, .separator {
+  font-size: 75%;
+}
