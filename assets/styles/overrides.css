@@ -42,3 +42,6 @@ h3.post-title {
 .taglist, .separator {
   font-size: 75%;
 }
+.taglist a {
+  background-color: #6da8b6;
+}
