@@ -5,6 +5,9 @@ header > h6 {
   font-family: "Open Sans";
 }
 a#logo > img {
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  -o-transform: rotate(4deg);
   transform: rotate(4deg);
   width: 135px;
   height: 135px;
@@ -34,6 +37,7 @@ ul.rotate a:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
+  transform: rotate(360deg);
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   -o-transition-duration: 0.8s;
