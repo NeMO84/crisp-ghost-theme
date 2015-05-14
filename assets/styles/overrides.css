@@ -8,6 +8,7 @@ a#logo > img {
   transform: rotate(4deg);
   width: 135px;
   height: 135px;
+  background-color:#F0F8FF;
 }
 ul#follow-icons {
   margin: 0;
