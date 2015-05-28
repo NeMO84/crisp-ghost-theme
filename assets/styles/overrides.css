@@ -1,7 +1,16 @@
-/*#337ab7 = blue
+/*
+#337ab7 = blue
 #6da8b6 = lighterblue
-#5cc265 = green*/
+#5cc265 = green
+#fdcc72 = orange
+*/
 
+a {
+  color: #fdcc72;
+}
+a:hover {
+  color: #5cc265;
+}
 header {
   text-align: center;
 }
