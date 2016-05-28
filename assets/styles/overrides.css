@@ -6,10 +6,10 @@
 */
 
 a {
-  color: #fdcc72;
+  color: #6da8b6;
 }
 a:hover {
-  color: #5cc265;
+  color: #337ab7;
 }
 header {
   text-align: center;
@@ -40,6 +40,17 @@ a#logo > img {
 #follow-icons a:hover {
   color: #337ab7;
 }
+.taglist, .separator {
+  font-size: 75%;
+}
+.taglist a {
+  background-color: #6da8b6;
+}
+.taglist a:hover {
+  color: #ffffff;
+  background-color: #337ab7;
+  text-decoration: none;
+}
 .rotate a {
   -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
@@ -61,12 +72,10 @@ a#logo > img {
   -o-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-.taglist, .separator {
-  font-size: 75%;
-}
-.taglist a {
-  background-color: #6da8b6;
-}
+
 code {
-  background: none;
+  font-size: 1.0em;
+}
+pre > code {
+  font-size: 1.4em;
 }
