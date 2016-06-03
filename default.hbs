@@ -7,7 +7,11 @@
 	    {{! Page Meta }}
 	    <title>{{meta_title}}</title>
 	    <meta name="description" content="{{meta_description}}" />
-	    <link rel="shortcut icon" href="{{@blog.logo}}"/>
+	    <meta name="keywords" content="Blog,Technology" />
+	    <meta name="author" content="Nirmit Patel" />
+	    <meta name="author" content="Patelify" />
+	    <meta name="copyright" content="Nirmit Patel LLC" />
+	    <link rel="shortcut icon" href="//cdn.patelify.com/patelify/favicon.ico"/>
 			{{! Styles }}
 	    <link rel="stylesheet" href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css" type="text/css">
 	    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
@@ -30,8 +34,8 @@
 	</head>
 	<body class="{{body_class}}">
 		<header id="header">
-			{{#if @blog.logo}}<a id="logo" href="/"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
-			<h1><a href="/">{{@blog.title}}</a></h1>
+			<!-- <h1><a href="/">{{@blog.title}}</a></h1> -->
+			{{#if @blog.logo}}<a id="logo" href="/" title="{{@blog.title}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
 			<p>{{@blog.description}}</p>
 			{{> follow}}
 			{{> navigation}}

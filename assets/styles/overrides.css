@@ -5,6 +5,10 @@
 #fdcc72 = orange
 */
 
+body {
+  font-family: "Monaco", "Open Sans";
+}
+
 a {
   color: #6da8b6;
 }
@@ -14,16 +18,12 @@ a:hover {
 header {
   text-align: center;
 }
-header > h6 {
-  font-family: "Open Sans";
-}
 h3.post-title {
   font-size: 1.4em;
 }
 a#logo > img {
   width: 135px;
   height: 135px;
-  background-color:#F0F8FF;
 }
 #follow-icons {
   margin: 0;
@@ -72,10 +72,12 @@ a#logo > img {
   -o-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-
 code {
   font-size: 1.0em;
 }
 pre > code {
   font-size: 1.4em;
+}
+nav.pagination {
+  text-align: center;
 }
